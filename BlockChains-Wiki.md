@@ -2,7 +2,7 @@
 
 ### 为啥要做这个
 
-每一个新兴技术行业的诞生都会随之爆发一堆相关英文术语，不论是技术爱好者还是炒币小韭菜，都会在技术文章或者相关资讯新闻又或者是大咖会议上碰到这类专业名词，第一次听到时估计都是一脸懵逼吧。
+每一个新兴技术行业的诞生都会随之爆发一堆相关英文术语（毕竟目前最新技术都来自海外英文社区），不论是技术爱好者还是炒币小韭菜，都会在技术文章或者相关资讯新闻又或者是大咖会议上碰到这类专业名词，第一次听到时估计都是一脸懵逼吧。
 
 [![U5l3R.md.jpg](https://s1.ax2x.com/2018/03/19/U5l3R.md.jpg)](https://simimg.com/i/U5l3R)
 
@@ -17,6 +17,7 @@
 | AML       | 反洗钱   | Anti-Money Laundering |
 | autonomous | 自治 ||
 | ASIC | 专用集成电路技术 | Application Specific Integrated Circuits |
+| altcoin | 山寨币 | |
 | BIP | 比特币改进建议 | Bitcoin Improvement Proposals |
 | BFT | 拜占庭容错 | Byzantine Fault Tolerance |
 | Bulletproofs | 防弹证明技术（期待更好的翻译 XD） | 由斯坦福大学提出的，把膨胀系数减少到普通交易的三倍（原来是60倍），可以大幅降低隐私交易的数据量大小的算法 |
@@ -24,6 +25,7 @@
 | Corda | | R3联盟推出的金融联盟“类区块链”技术架构，Corda中同样是用交易组成账本，但并没有区块，交易仅在参与方和公证人间传播 |
 | consensus | 共识，一致 | |
 | Contracts Accounts | 合约账户 | |
+| Dapps | 去中心化应用程序 | |
 | DAO | 分布式自治组织 | Distributed Autonomous Organization，通过一系列公开公正的规则，可以在无人干预和管理的情况下自主运行的组织机构 |
 | DAG | 有向无环图 | Directed Acycli Graph，一种共识算法，IOTA项目采用 |
 | DBFT | 授权拜占庭容错 | Delegatede BFT，基于权益的BFT共识算法，NEO采用 |
@@ -43,11 +45,13 @@
 | gas price | | 以另一种货币或token（例如Ether）计量交易花费的价格。为了稳定消耗gas的价值，gas price是浮动的，根据货币或token价格浮动而相应变动以保持总价格稳定。gas price由市场供需决定（用户愿意支出的价格和矿工节点愿意接受的价格的博弈）|
 | gas limit | | 某笔具体的交易能够消耗的gas最大值，一笔标准的以太坊交易需要21，000 gas。当交易的gas limit不足时，会出现 out of gas 错误 |
 | [gas used](https://masterthecrypto.com/ethereum-what-is-gas-gas-limit-gas-price/) | | 有效支付用于计算或智能合约运行的gas数量（在成功的交易中gas fee小于 gas limit)，一笔以太坊交易的实际矿工费(Tx Fees) = gas used * gas price |
-| HashGraph | 哈希图 | |
+| [HashGraph](https://hashgraph.github.io/docs/quickstart/) | 哈希图 | Hashgraph是第一个异步拜占庭容错共识算法，它基于谣言算法，具有更公平的秩序，更快达成一致性以及更安全的传播，是下一代分布式账簿技术的基础 |
+| hard fork | 硬分叉 | |
 | Homestead | 家园 | 以太坊开发第二阶段 |
 | [I2P](https://wiki.archlinux.org/index.php/I2P_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)) | | Invisible Internet Project，建立在互联网上的隐匿网络层，用于为网络通讯提供隐私保护 |
 | [Infura](https://infura.io/) | | 提供全球范围区块链集群和API端点等基础架构服务；可用于以太坊，IPFS等其他新兴的分布式平台。致力于提供安全，稳定，高容错性金额可扩展的区块链访问接口 |
 | IPC | 内部进程间通信 | Inter-Process Communication |
+| IOT | 物联网 | Internet Of Things |
 | keccak | | 一种SHA-3加密算法 |
 | KYC | 了解你的客户 | Know Your Customer |
 | [Kovri](https://getmonero.org/resources/moneropedia/kovri.html) | | I2P网络的C++实现版本，目前还在开发中尚未集成到门罗币中，可以提高交易的安全等级（可以隐藏IP地址） |
@@ -57,6 +61,7 @@
 | Paxos | | 一种用于传统分布式系统的共识协议 |
 | PBFT | 实用拜占庭容错 | Practical BFT，一种基于BTF的共识算法 |
 | Raft | | Paxos协议的一种简单实现 |
+| P2P | 点对点对等网络 | Peer To Peer |
 | Payment Codes | 可重用支付码 | BIP47，支付码是一种用于创建永久性比特币地址的技术，这些地址可以重复使用，与现实生活中的身份公开相关，同时无损于财务隐私。它们类似于隐形地址。即使他人知道你的支付码也无法追踪你的交易历史，可以用于想要私密的接收BTC的场景 |
 | portfolio | 投资组合 ||
 | proposal | 提案 ||
@@ -64,16 +69,23 @@
 | POW | 工作量证明 | Proof Of Work，一种共识算法 |
 | POS | 权益证明 | Proof Of Stake，一种共识算法 |
 | pegged zone | 锚定分区 | 一种锚定分区的桥接机制，出现于Cosmos项目 |
+| Public Key | 公钥 | |
+| Private Key | 私钥 | |
 | R&D | 研究与开发 | research and development |
 | RPCA | 瑞波共识算法 | Ripple Protocol Consensus Algorithm，类似PBFT的共识机制 |
 | [RingCT](https://getmonero.org/resources/moneropedia/ringCT.html) | 环加密交易 | Ring Confidential Transactions，隐藏交易信息（包括交易双方信息和交易金额）的加密技术，门罗币采用 |
 | ring signatures | 环签名 | 用于隐匿发送发信息的技术，门罗币采用 |
 | [RLP](https://github.com/ethereum/wiki/wiki/%5B%E4%B8%AD%E6%96%87%5D-RLP) | RLP编码 | Recursive Length Prefix（递归长度前缀）是一种适用于任意二进制数据数组的编码。是以太坊中对象进行序列化/反序列化的主要编码方式。区块，交易等数据结构在持久化时会先经过RLP编码后再存储到持久层中 |
+| Satoshi Nakamoto | 中本聪 | |
 | Serenity | 宁静 | 以太坊开发第四阶段（也是最后一个阶段） |
 | SHA | SHA系列安全散列算法 | 生成固定长度摘要信息(长度等于版本名中的数字，例如SHA-160的摘要长度就是160位)，包括SHA-1(160)，SHA-2(224，256，384，512) |
 | signature | 签名 ||
+| smart contract | 智能合约 | |
+| soft fork | 软分叉 | |
 | stealth address | 隐匿地址 | 能够隐藏接收方信息 |
 | swarm | | 去中心化的数据存储访问协议，以ETH作为激励。类似使用了Filecoin的IPFS |
+| [sybil attack](http://www.arkteam.net/?p=2752) | 女巫攻击 | P2P网络中的一种攻击形式：攻击者利用单个节点来伪造多个身份存在于P2P网络中，从而达到削弱网络的冗余性，降低网络健壮性，监视或干扰网络正常活动等目的 |
+| Turing Complete | 图灵完备 | |
 | [testrpc](https://github.com/trufflesuite/ganache-cli) | 以太坊节点客户端 |  是一个基于NodeJS的用于测试开发的以太坊节点客户端。使用ethereumjs模拟客户端行为，包含主要的RPC函数和功能。目前已被收录到truffle的开发工具包中 |
 | TX | 交易 | transaction |
 | TX id | 交易ID | 即 交易的hash值 |
