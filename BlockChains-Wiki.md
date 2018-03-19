@@ -95,3 +95,6 @@
 | ZKRP | 零知识范围证明 | Zero Knownledge Range Proof，证明一个具体声明的真实性而不会泄露它试图证明的额外信息 |
 | ZK-SNARKs | 零知识证明 | ZK-Succint Non-interactive Arguments of Knownledge |
 | [2-Way Peg](https://faq.rsk.co/hrf_faq/what-is-the-2-way-peg/) | 双向锚定 | 一种跨链技术 |
+
+***
+更多内容敬请关注微信公众号 **BlockGeeks**
