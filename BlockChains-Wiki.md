@@ -32,9 +32,10 @@ P.S：
 | Contracts Accounts | 合约账户 | |
 | Dapps | 去中心化应用程序 | |
 | DAO | 分布式自治组织 | Distributed Autonomous Organization，通过一系列公开公正的规则，可以在无人干预和管理的情况下自主运行的组织机构 |
-| DAG | 有向无环图 | Directed Acycli Graph，一种共识算法，IOTA项目采用 |
+| [DAG](http://www.qukuaiwang.com.cn/news/1913.html) | 有向无环图 | Directed Acycli Graph，一种共识算法，IOTA项目采用，[参考1](https://www.forbes.com/sites/shermanlee/2018/01/22/explaining-directed-acylic-graph-dag-the-real-blockchain-3-0/#65d46457180b)，[参考2](https://medium.com/crypto-oracle/is-the-future-of-blockchains-dags-5-lessons-from-the-hashgraph-event-in-nyc-on-march-13th-ff0f7e0fa510) |
 | DBFT | 授权拜占庭容错 | Delegatede BFT，基于权益的BFT共识算法，NEO采用 |
 | DD | 尽职调查 | due diligence |
+| difficulty bomb | 难度炸弹 | 当区块增长到一定高度，PoW的难度值将大到矿工无法在合理的时间内打包出块，这种现象就叫难度炸弹 |
 | DLT | 分布式账簿技术 | Distributed Ledger Technology |
 | DPOS | 委托权益证明 | Delegated Proof Of Stake，一种共识算法 |
 | ECC | 椭圆曲线密码学 | Elliptic Curve Cryptography，一种建立公开密钥加密的算法 |
@@ -87,11 +88,15 @@ P.S：
 | signature | 签名 ||
 | smart contract | 智能合约 | |
 | soft fork | 软分叉 | |
+| spam attack | 垃圾交易攻击 | |
 | stealth address | 隐匿地址 | 能够隐藏接收方信息 |
 | swarm | | 去中心化的数据存储访问协议，以ETH作为激励。类似使用了Filecoin的IPFS |
 | [sybil attack](http://www.arkteam.net/?p=2752) | 女巫攻击 | P2P网络中的一种攻击形式：攻击者利用单个节点来伪造多个身份存在于P2P网络中，从而达到削弱网络的冗余性，降低网络健壮性，监视或干扰网络正常活动等目的 |
+| [tangle](https://zhuanlan.zhihu.com/p/34819819) | IOTA中的DAG结构 | |
 | Turing Complete | 图灵完备 | |
 | [testrpc](https://github.com/trufflesuite/ganache-cli) | 以太坊节点客户端 |  是一个基于NodeJS的用于测试开发的以太坊节点客户端。使用ethereumjs模拟客户端行为，包含主要的RPC函数和功能。目前已被收录到truffle的开发工具包中 |
+| testnet | 测试网络 | |
+| TGE | 令牌生成事件 | Token Generation Event， 在大多数场合基本等同于ICO |
 | TX | 交易 | transaction |
 | TX id | 交易ID | 即 交易的hash值 |
 | Truffle | | 一个基于以太坊技术的开发、测试和部署框架，旨在帮助以太坊开发者更容易开发去中心化应用（DApp） |
