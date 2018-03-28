@@ -37,6 +37,7 @@ P.S：
 | DD | 尽职调查 | due diligence |
 | difficulty bomb | 难度炸弹 | 当区块增长到一定高度，PoW的难度值将大到矿工无法在合理的时间内打包出块，这种现象就叫难度炸弹 |
 | DLT | 分布式账簿技术 | Distributed Ledger Technology |
+| double spend | 双重消费（双花）| 如果用户试图将代币同时支付给两个不同收款人，即为双花 |
 | DPOS | 委托权益证明 | Delegated Proof Of Stake，一种共识算法 |
 | ECC | 椭圆曲线密码学 | Elliptic Curve Cryptography，一种建立公开密钥加密的算法 |
 | EIP | 以太坊改进建议 | Ethereum Improvement Proposals |
@@ -51,6 +52,7 @@ P.S：
 | gas price | | 以另一种货币或token（例如Ether）计量交易花费的价格。为了稳定消耗gas的价值，gas price是浮动的，根据货币或token价格浮动而相应变动以保持总价格稳定。gas price由市场供需决定（用户愿意支出的价格和矿工节点愿意接受的价格的博弈）|
 | gas limit | | 某笔具体的交易能够消耗的gas最大值，一笔标准的以太坊交易需要21，000 gas。当交易的gas limit不足时，会出现 out of gas 错误 |
 | [gas used](https://masterthecrypto.com/ethereum-what-is-gas-gas-limit-gas-price/) | | 有效支付用于计算或智能合约运行的gas数量（在成功的交易中gas fee小于 gas limit)，一笔以太坊交易的实际矿工费(Tx Fees) = gas used * gas price |
+| hash rate | 哈希率 | 哈希率是衡量比特币网络（当然也可用于其他POW网络）处理能力的测量单位。为保证安全，比特币网络必须进行大量的数学运算，当网络达到10Th/秒的哈希率时，就意味着它能够进行每秒10万亿次的计算|
 | [HashGraph](https://hashgraph.github.io/docs/quickstart/) | 哈希图 | Hashgraph是第一个异步拜占庭容错共识算法，它基于谣言算法，具有更公平的秩序，更快达成一致性以及更安全的传播，是下一代分布式账簿技术的基础 |
 | hard fork | 硬分叉 | |
 | Homestead | 家园 | 以太坊开发第二阶段 |
@@ -67,7 +69,7 @@ P.S：
 | Paxos | | 一种用于传统分布式系统的共识协议 |
 | PBFT | 实用拜占庭容错 | Practical BFT，一种基于BTF的共识算法 |
 | Raft | | Paxos协议的一种简单实现 |
-| P2P | 点对点对等网络 | Peer To Peer |
+| P2P | 点对点对等网络 | Peer To Peer，通过允许单个节点与其他节点直接交互，从而实现整个系统像有组织的集体一样运作的系统 |
 | Payment Codes | 可重用支付码 | BIP47，支付码是一种用于创建永久性比特币地址的技术，这些地址可以重复使用，与现实生活中的身份公开相关，同时无损于财务隐私。它们类似于隐形地址。即使他人知道你的支付码也无法追踪你的交易历史，可以用于想要私密的接收BTC的场景 |
 | portfolio | 投资组合 ||
 | proposal | 提案 ||
