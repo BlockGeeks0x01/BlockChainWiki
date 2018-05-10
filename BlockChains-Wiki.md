@@ -23,10 +23,12 @@ P.S：
 | autonomous | 自治 ||
 | ASIC | 专用集成电路技术 | Application Specific Integrated Circuits |
 | altcoin | 山寨币 | |
+| automic broadcast | 原子广播 | 详见[Zookeeper](http://codingo.xyz/index.php/2016/12/27/zab_paxos/), 类似二阶段提交 |
 | BIP | 比特币改进建议 | Bitcoin Improvement Proposals |
 | BFT | 拜占庭容错 | Byzantine Fault Tolerance |
 | Bulletproofs | 防弹证明技术（期待更好的翻译 XD） | 由斯坦福大学提出的，把膨胀系数减少到普通交易的三倍（原来是60倍），可以大幅降低隐私交易的数据量大小的算法 |
 | CAP | CAP定理 | 分布式异步网络模型中，不能同时保证一致性，可用性和分区容错性，只能三选二 |
+| Casper FFG | Casper the Friendly Finality Gadget | Casper 友好的终极小工具版本，V神主导 |
 | Corda | | R3联盟推出的金融联盟“类区块链”技术架构，Corda中同样是用交易组成账本，但并没有区块，交易仅在参与方和公证人间传播 |
 | consensus | 共识，一致 | |
 | Contracts Accounts | 合约账户 | |
@@ -45,6 +47,8 @@ P.S：
 | Ethash | 以太坊挖矿算法 | 以前这个算法称为 Dagger Hashimoto，Ethash是最新版本的 Dagger-Hashimoto改良算法，是Hashimoto算法结合Dagger算法产成的一个新变种。实现两个主要目的：抵抗ASIC矿机和轻客户端易验证 |
 | EVM | 以太坊虚拟机 | Ethereum Virtual Machine，借助以太坊虚拟机将solidity代码变成可以在区块链上执行的加密代码。以太坊虚拟机是设计运行在点对点网络中所有参与节点上的一个虚拟机，它可以读写一个区块链中可执行的代码和数据，校验数据签名，并以半图灵完备的方式来运行代码 |
 | EOA | 外部账户 | Externally Owned Accounts |
+| ERC-20 | 同质代币 | 代币可分割，可对等置换 |
+| ERC-721 | 非同质代币 | Non-Fungible Tokens，简称NFTs，代币不可分割，且每个都是独一无二 |
 | FLP | FLP定理 | 在网络可靠并且存在节点失效的异步模型中，不存在一个可以解决一致性问题的确定性算法 |
 | Frontier | 前沿 | 以太坊开发第一阶段 |
 | [geth](https://github.com/ethereum/go-ethereum/wiki/JavaScript-Console) | Go Ethereum | 实现了以太坊协议的javascript运行时环境，可以以交互式或非交互式模式运行 |
@@ -65,7 +69,12 @@ P.S：
 | [Kovri](https://getmonero.org/resources/moneropedia/kovri.html) | | I2P网络的C++实现版本，目前还在开发中尚未集成到门罗币中，可以提高交易的安全等级（可以隐藏IP地址） |
 | Metropolis | 大都会 | 以太坊开发第三阶段 |
 | MD | MD系列消息摘要算法 | 消息摘要算法，包括MD2,MD4,MD5, 安全性依次提升 |
+| MVP | 最小可行产品 | Minimum Viable Product |
+| merkle tree | 默克尔树 | |
+| ninja mine | 偷偷挖矿 | |
 | Oracle | 预言机 | 注意此oracle不是指数据库。预言机连接虚拟与现实，核心功能是提供数据上链服务，是实现智能合约的必要条件。智能合约是在区块链提供的沙盒环境中运行，沙盒是个封闭环境，使合约代码不能读取链外数据，但很多时候智能合约又必须依赖外部数据，oracle在这里就承担了提供外部数据的功能。[参考文章](https://medium.com/taipei-ethereum-meetup/oracle%E7%B3%BB%E5%88%97%E4%B8%80-human-oracle-cb7ed8268030) |
+| off-chain | 链外 | |
+| OTC | 场外交易 | Over The Counter trading，即不通过中介直接完成双方之间交易 |
 | Paxos | | 一种用于传统分布式系统的共识协议 |
 | PBFT | 实用拜占庭容错 | Practical BFT，一种基于BTF的共识算法 |
 | Raft | | Paxos协议的一种简单实现 |
@@ -79,6 +88,9 @@ P.S：
 | pegged zone | 锚定分区 | 一种锚定分区的桥接机制，出现于Cosmos项目 |
 | Public Key | 公钥 | |
 | Private Key | 私钥 | |
+| reentrancy attack | 重入攻击 | |
+| replay attack |重放攻击 | 在主链上创建一个交易之后，在分叉链上重复同样的交易 |
+| reordering attack | 重排攻击 | 指矿工或其他方试图通过将自己的信息插入列表或映射中来与智能合约参与者进行“竞争”，从而使攻击者有机会将自己的信息存储到合约中 |
 | R&D | 研究与开发 | research and development |
 | RPCA | 瑞波共识算法 | Ripple Protocol Consensus Algorithm，类似PBFT的共识机制 |
 | [RingCT](https://getmonero.org/resources/moneropedia/ringCT.html) | 环加密交易 | Ring Confidential Transactions，隐藏交易信息（包括交易双方信息和交易金额）的加密技术，门罗币采用 |
