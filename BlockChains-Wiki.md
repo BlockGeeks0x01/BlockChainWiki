@@ -18,12 +18,16 @@ P.S：
 | 英文      | 中文     | 备注 |
 | --------- | -------- | ---- |
 | ABI | 智能合约的接口说明 | Application Binary Interface，ABI是以太坊的一种合约间调用的消息格式，类似于WebService的SOAP协议一样，也就是定义操作函数签名，参数编码，返回结果编码等的协议 |
+| ADDY | 加密货币公共地址（或公钥） | |
 | AES | 高级加密标准 | Advanced Encryption Standard |
 | AML       | 反洗钱   | Anti-Money Laundering |
 | autonomous | 自治 ||
 | ASIC | 专用集成电路技术 | Application Specific Integrated Circuits |
 | altcoin | 山寨币 | |
+| ATH | All Time High | 历史新高 |
 | automic broadcast | 原子广播 | 详见[Zookeeper](http://codingo.xyz/index.php/2016/12/27/zab_paxos/), 类似二阶段提交 |
+| BEAR | 熊市 | |
+| bear whale | 熊鲸 | 拥有大量某种加密货币，然后做空币价的交易者 |
 | BIP | 比特币改进建议 | Bitcoin Improvement Proposals |
 | BFT | 拜占庭容错 | Byzantine Fault Tolerance |
 | Bulletproofs | 防弹证明技术（期待更好的翻译 XD） | 由斯坦福大学提出的，把膨胀系数减少到普通交易的三倍（原来是60倍），可以大幅降低隐私交易的数据量大小的算法 |
@@ -51,6 +55,7 @@ P.S：
 | ERC-721 | 非同质代币 | Non-Fungible Tokens，简称NFTs，代币不可分割，且每个都是独一无二 |
 | FLP | FLP定理 | 在网络可靠并且存在节点失效的异步模型中，不存在一个可以解决一致性问题的确定性算法 |
 | Frontier | 前沿 | 以太坊开发第一阶段 |
+| FOMO | Fear Of Missing Out | 害怕错过什么 |
 | [geth](https://github.com/ethereum/go-ethereum/wiki/JavaScript-Console) | Go Ethereum | 实现了以太坊协议的javascript运行时环境，可以以交互式或非交互式模式运行 |
 | gas | | gas是在以太坊网络中用于衡量执行交易或智能合约工作量的计算单位 |
 | gas price | | 以另一种货币或token（例如Ether）计量交易花费的价格。为了稳定消耗gas的价值，gas price是浮动的，根据货币或token价格浮动而相应变动以保持总价格稳定。gas price由市场供需决定（用户愿意支出的价格和矿工节点愿意接受的价格的博弈）|
@@ -59,6 +64,7 @@ P.S：
 | hash rate | 哈希率 | 哈希率是衡量比特币网络（当然也可用于其他POW网络）处理能力的测量单位。为保证安全，比特币网络必须进行大量的数学运算，当网络达到10Th/秒的哈希率时，就意味着它能够进行每秒10万亿次的计算|
 | [HashGraph](https://hashgraph.github.io/docs/quickstart/) | 哈希图 | Hashgraph是第一个异步拜占庭容错共识算法，它基于谣言算法，具有更公平的秩序，更快达成一致性以及更安全的传播，是下一代分布式账簿技术的基础 |
 | hard fork | 硬分叉 | |
+| HODL | 拿住 | 这是一个拼错的词，原词是hold，意为紧紧拿住币，哪怕大跌了 |
 | Homestead | 家园 | 以太坊开发第二阶段 |
 | [I2P](https://wiki.archlinux.org/index.php/I2P_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)) | | Invisible Internet Project，建立在互联网上的隐匿网络层，用于为网络通讯提供隐私保护 |
 | [Infura](https://infura.io/) | | 提供全球范围区块链集群和API端点等基础架构服务；可用于以太坊，IPFS等其他新兴的分布式平台。致力于提供安全，稳定，高容错性金额可扩展的区块链访问接口 |
@@ -103,6 +109,7 @@ P.S：
 | smart contract | 智能合约 | |
 | soft fork | 软分叉 | |
 | spam attack | 垃圾交易攻击 | |
+| SPV | 简单支付验证 | Simple Payment Verification，一种无需下载整个区块链网络数据就能验证某笔交易是否已被包含在区块中的方法。这一技术被用在很多轻客户端中 |
 | stealth address | 隐匿地址 | 能够隐藏接收方信息 |
 | swarm | | 去中心化的数据存储访问协议，以ETH作为激励。类似使用了Filecoin的IPFS |
 | [sybil attack](http://www.arkteam.net/?p=2752) | 女巫攻击 | P2P网络中的一种攻击形式：攻击者利用单个节点来伪造多个身份存在于P2P网络中，从而达到削弱网络的冗余性，降低网络健壮性，监视或干扰网络正常活动等目的 |
@@ -114,6 +121,7 @@ P.S：
 | TX | 交易 | transaction |
 | TX id | 交易ID | 即 交易的hash值 |
 | Truffle | | 一个基于以太坊技术的开发、测试和部署框架，旨在帮助以太坊开发者更容易开发去中心化应用（DApp） |
+| whale | 鲸鱼 | 从赌博借用的术语，这意味着一个交易者拥有很庞大数量的某种加密货币，通常是一个对特定加密货币的价格看涨的人，这些人也被称为看涨的鲸鱼 |
 | whisper | | 去中心化的通信协议 |
 | [YC](http://www.ycombinator.com/) | Y Combinator | 成立于2005年是美国著名创业孵化器，扶持初创企业并为其提供创业指南（Airbnb，Dropbox，Stripe，Reddit, Docker, Coinbase 等）,投资孵化过多个区块链项目 |
 | ZKRP | 零知识范围证明 | Zero Knownledge Range Proof，证明一个具体声明的真实性而不会泄露它试图证明的额外信息 |
